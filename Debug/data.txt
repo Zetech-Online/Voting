@@ -1,0 +1,6 @@
+create table users(
+    S_N int primary key auto_increment,
+    Email varchar (150)unique,
+    Pass varchar (255) unique,
+    Reg_Date datetime default now()
+);

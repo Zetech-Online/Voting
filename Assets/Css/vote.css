@@ -1,0 +1,242 @@
+:root{
+	--color-primary1: #1c1d3b;
+	--color-primaryOne:#47498a;
+    --color-primary2: #89734c;
+    --color-text1: #333;
+    --color-white: #fff;
+    --color-footer: #111;
+}
+
+
+.detail-el{
+    width: 100%;
+}
+
+.detail-el p{
+  text-align:left;
+  font-size: 1rem;
+}
+
+.detail-el .p1{
+margin-left: 3rem;
+}
+
+form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 1rem;
+}
+
+
+
+input{
+  padding-right:2rem;
+  padding-left: 0.5rem;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  border:none;
+  background-color: rgb(235, 238, 238);
+}
+
+.vote{
+  border: none;
+  background-color: var(--color-primary1);
+  color: #fff;
+  margin-top: 1rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  padding-bottom: 0.7rem;
+  padding-top: 0.7rem;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+}
+
+
+
+ /* ========================================CANDIDATE REGISTRATION================================================ */
+              
+                        
+                         /* Results Element */
+                        
+.slip{
+  cursor: pointer;
+}
+
+.results-el{
+  width: 90%;
+  backdrop-filter: blur(10px);
+  position: absolute;
+  top: 13rem;
+  left: 3rem;
+  z-index: 3;
+  display: none;
+}
+
+
+.results-el .header{
+  background: #89734c;
+ padding-top: 0.1rem;
+}
+
+
+.results-el h1{
+  color: #fff;
+  text-align: center;
+}
+
+.results-el p{
+  text-align: center;
+  color: #fff;
+  font-size: 1.4rem;
+  margin: 0.3rem;
+}
+
+.results-el .results-body{
+  padding-bottom: 3rem;
+}
+
+.results-body{
+  margin-top: 2.5rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid  #999;
+  border-left: 1px solid  #999;
+  border-right: 1px solid  #999;
+}
+
+
+        /* Form */
+
+.results-body form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  width: 90%;
+  border: 2px solid var(--color-primary1);
+  overflow:scroll;
+  background: #ffffffe1;
+  border-radius: 1rem;
+}
+
+.results-body form .sec{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border: 1px solid rgb(202, 202, 202);
+  padding: 1rem;
+}
+
+
+.results-body form .sec label{
+  color: var(--color-primary1);
+  font-weight: 700;
+}
+
+.results-body form .sec input{
+  background: #76abfa31;
+}
+
+.results-body .parent{
+  display: flex;
+  gap: 3rem;
+}
+
+/* Parents */
+.results-body .parent-1{
+  margin-top: 1rem;
+}
+
+.results-body .parent-2{
+  margin-bottom: 2rem;
+}
+
+.submit-el{
+  padding-left: 2rem;
+  padding-right: 2rem;
+  color: #fff;
+  background: var(--color-primary1);
+  margin-bottom: 4rem;
+  cursor: pointer;
+}
+
+
+/* Close btn */
+
+ .close-slip{
+  position: absolute;
+  right: 2rem;
+  top: 1rem;
+  color: #fff;
+  cursor: pointer;
+ }
+
+
+
+ /* ====================================VOTING PLATFROM================================================================= */
+
+ .content .title-txt{
+  font-size: 1.7rem;
+ }
+
+ summary{
+  cursor: pointer;
+ font-weight: 500;
+ font-size: 1rem;
+ color: #1c1d3b;
+ }
+
+
+ .cands-el{
+      width: 90%;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-top: 1rem;
+      padding-bottom: 2rem;
+ }
+
+.cands-el .candi .about h1{
+  font-size: 1rem;
+}
+
+
+.cands-el .candi{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border-top: 1px solid #000;
+margin-bottom: 1rem;
+}
+
+.cands-el .cand-one{
+ border-top: none;
+  }
+
+.cands-el .candi .prof{
+  width: 6rem;
+  height: 7rem;
+  background-image: url(../images/cand2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 1rem;
+  border-radius: 50%;
+  border: 1px solid var(--color-primary1);
+}
+
+.cands-el .candi  .vote-btn{
+  background-color: #89734c;
+  padding-left: 1rem;
+  padding-right:1rem;
+  border-radius: 1rem;
+  color: #fff;
+  cursor: pointer;
+}
